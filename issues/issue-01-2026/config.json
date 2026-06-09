@@ -1,0 +1,27 @@
+{
+  "issue_metadata": {
+    "number": "الأول",
+    "volume": "1",
+    "year": 2026,
+    "publication_date": "2026-06-09",
+    "language": ["ar", "fr", "en"]
+  },
+  "editorial": {
+    "chief_editor": "أ.د. [اسم المحرر الرئيسي]",
+    "managing_editor": "د. [اسم المحرر التنفيذي]"
+  },
+  "featured_articles": [
+    {
+      "title_ar": "عنوان المقالة الأولى",
+      "title_fr": "Titre de l'article 1",
+      "authors": ["د. الكاتب"],
+      "pages": "10-30"
+    },
+    {
+      "title_ar": "عنوان المقالة الثانية",
+      "title_fr": "Titre de l'article 2",
+      "authors": ["د. كاتب آخر"],
+      "pages": "31-50"
+    }
+  ]
+}

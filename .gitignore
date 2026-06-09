@@ -1,0 +1,22 @@
+# نظام التشغيل
+.DS_Store
+Thumbs.db
+
+# أدوات التطوير
+node_modules/
+.vscode/
+.idea/
+
+# الملفات المؤقتة
+*.tmp
+*.bak
+*.swp
+
+# الملفات الشخصية
+.env
+personal-notes.md
+
+# الملفات المولدة
+*.pdf
+*.png
+*.jpg

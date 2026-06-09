@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>مجلة الدراسات العسكرية والأكاديمية</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <!-- الخلفية الزخرفية -->
+        <div class="background-pattern"></div>
+        
+        <!-- الشعار -->
+        <div class="logo-section">
+            <img src="../logo/logo.svg" alt="الشعار" class="logo">
+        </div>
+        
+        <!-- المحتوى الرئيسي -->
+        <div class="main-content">
+            
+            <!-- العنوان الرئيسي -->
+            <div class="title-section">
+                <h1 class="magazine-title-ar">مجلة الدراسات العسكرية والأكاديمية</h1>
+                <h2 class="magazine-title-fr">Revue des Études Militaires et Académiques</h2>
+                <div class="subtitle">مجلة علمية محكمة متعددة الاختصاصات واللغات</div>
+            </div>
+            
+            <!-- معلومات العدد -->
+            <div class="issue-info">
+                <div class="issue-number">العدد الأول - العام الأول</div>
+                <div class="issue-year">2026</div>
+            </div>
+            
+            <!-- المواضيع الرئيسية -->
+            <div class="featured-articles">
+                <div class="article-card">
+                    <h3>الدراسات الاستراتيجية</h3>
+                    <p>تحليل عميق للقضايا العسكرية والاستراتيجية المعاصرة</p>
+                </div>
+                <div class="article-card">
+                    <h3>البحوث العسكرية</h3>
+                    <p>أبحاث أكاديمية متخصصة من أساتذة جامعيين</p>
+                </div>
+                <div class="article-card">
+                    <h3>المنظور الأكاديمي</h3>
+                    <p>دراسات متعددة التخصصات من منظور أكاديمي</p>
+                </div>
+            </div>
+            
+            <!-- منطقة النص القابلة للتعديل -->
+            <div class="editable-text-zone">
+                <h3>محتويات هذا العدد</h3>
+                <ul id="contents-list">
+                    <li>مقدمة العدد</li>
+                    <li>الدراسات الرئيسية</li>
+                    <li>البحوث المختارة</li>
+                    <li>النقاشات الأكاديمية</li>
+                </ul>
+            </div>
+            
+        </div>
+        
+        <!-- التذييل -->
+        <div class="footer">
+            <p>جميع الحقوق محفوظة © 2026 - الأكاديمية العسكرية</p>
+            <p>هذه المجلة موجهة للأساتذة الجامعيين والباحثين المتخصصين</p>
+        </div>
+        
+    </div>
+    
+    <!-- لوحة المحرر السريع -->
+    <div class="editor-panel">
+        <h4>⚙️ محرر سريع</h4>
+        <div class="editor-group">
+            <label>رقم العدد:</label>
+            <input type="text" id="issueNumber" placeholder="العدد الأول" onchange="updateContent()">
+        </div>
+        <div class="editor-group">
+            <label>السنة:</label>
+            <input type="text" id="issueYear" placeholder="2026" onchange="updateContent()">
+        </div>
+        <div class="editor-group">
+            <label>لون الأساس:</label>
+            <input type="color" id="primaryColor" value="#1a3a52" onchange="updateContent()">
+        </div>
+        <button onclick="downloadAsImage()">📥 حمّل الصفحة كصورة</button>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
